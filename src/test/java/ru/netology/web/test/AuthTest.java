@@ -19,7 +19,7 @@ public class AuthTest {
 
     @BeforeEach
     public void setUp() {
-//        Configuration.headless = true;
+        Configuration.headless = true;
         open("http://0.0.0.0:9999");
     }
 
